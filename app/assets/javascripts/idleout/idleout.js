@@ -17,7 +17,7 @@ idleOut.pageTimeOut.prototype.start = function() {
     idleTime++;
     if (idleTime > minutes && alerted === true) {
       alerted = false
-      alert("Your page has timed out.  Please save/copy your information elsewhere before you are redirected to our login server.")
+      alert("Your page may have timed out.  Please save/copy your information elsewhere before you continue, as you may be redirected to our login server.")
     }
   }
 

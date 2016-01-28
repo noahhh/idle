@@ -5,4 +5,4 @@ To use, place this where you would like the timeout warning to occur
   timeout.start();
 </script>
 
-The timeout is set to 50 minutes, but can be changed by replacing the 50 with a number of your choosing.
+The timeout in the example is set to 50 minutes, but can be changed by replacing the 50 with a number of your choosing.
