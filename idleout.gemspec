@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["nh118@duke.edu"]
 
   spec.summary       = %q{JS to alert user of idling out}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
