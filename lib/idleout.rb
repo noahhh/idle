@@ -1,5 +1,4 @@
 require "idleout/version"
-require "idleout/engine"
 
 module Idleout
 
