@@ -5,11 +5,12 @@ idleOut.pageTimeOut = function(timeout) {
 }
 
 idleOut.pageTimeOut.prototype.start = function() {
-  var idleTime = this.timeout
+  var idleTime = 0;
+  var increment = this.timeout
   var alerted = true;
 
   if(alerted === true) {
-    var idleInterval = setInterval(timerIncrement, 20000); // 1 minute
+    var idleInterval = setInterval(timerIncrement, increment); // 1 minute
   }
 
   function timerIncrement() {
