@@ -1,9 +1,7 @@
 idleOut = {}
 
 idleOut.pageTimeOut = function(timeout) {
-  // var b = typeof b !== 'undefined' ?  b : 1;
   this.timeout = typeof timeout !== 'undefined' ? timeout : 50
-  // this.timeout = timeout
 }
 
 idleOut.pageTimeOut.prototype.start = function() {
